@@ -1,0 +1,61 @@
+html,
+body,
+div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+
+
+body {
+    line-height: 1;
+}
+
+
+
+
+
+.container{
+    margin: 0 auto;
+    width: 1300px;
+    padding:50px;
+    
+}
+
+.title{
+    color: rgb(88, 10, 10);
+}
+
+.header{
+    &__title{
+        font-size: 28px;
+    }
+}
+
+.items{
+     width: 800px;
+     display: flex;
+     justify-content: space-between;
+}
+.main{
+
+    &__item{
+       display: flex;
+       flex-direction: column;
+       border: 1px solid rgb(165, 162, 162);
+    }
+
+    &__item-img {
+        width: 200px;
+        height: 200px;
+    }
+
+
+
+}
